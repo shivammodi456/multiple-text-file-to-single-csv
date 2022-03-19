@@ -1,0 +1,19 @@
+{
+  "name": "text-to-csv",
+  "version": "1.0.0",
+  "description": "convert text file to csv file using node.js app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Modi",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.0.5",
+    "csv-writer": "^1.6.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
+  }
+}
