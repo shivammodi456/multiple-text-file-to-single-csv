@@ -4,7 +4,7 @@
   "description": "convert text file to csv file using node.js app",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shivam Modi",
